@@ -1,0 +1,88 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+body {
+    background-color: #1f023a; 
+    padding-top: 70px; 
+}
+
+#mainNavbar {
+    background-color: #10002b; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    height: 15%;
+}
+
+.logo-img {
+    height: 120px; 
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #18ff52; 
+}
+
+.btn-outline-success {
+    border-color: #18ff52;
+    color: #18ff52;
+}
+
+.btn-outline-success:hover {
+    background-color: #18ff52;
+    color: #10002b;
+}
+
+.section-title {
+    color: #18ff52; 
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600; 
+    font-size: 2.5rem; 
+    margin-left: 5%; 
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+        margin-left: 0;
+        text-align: center !important;
+    }
+}
+
+.carousel-custom {
+    max-width: 80%; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 0 20px rgba(24, 255, 82, 0.5); 
+}
+
+.carousel-item img {
+    height: auto; 
+    max-height: 500px; 
+    object-fit: cover;
+}
+
+
+.card-custom {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(24, 255, 82, 0.8);
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover;
+}
+
+footer {
+    background-color: #10002b;
+    border-top: 3px solid #18ff52;
+}

@@ -1,0 +1,23 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+/* Estilo para as caixas de texto com borda verde */
+.bg-dark {
+    background-color: #10002b !important; /* Cor mais escura do header para distinção */
+}
+
+/* Garante que o texto nas caixas seja legível */
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Estilo para os cards de Missão/Visão */
+.card-custom {
+    /* Reutiliza o estilo de hover do seu style.css, mas garante borda verde */
+    border: 1px solid #18ff52 !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(24, 255, 82, 0.8);
+}
