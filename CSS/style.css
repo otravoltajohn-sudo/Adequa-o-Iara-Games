@@ -2,17 +2,43 @@
 
 body {
     background-color: #1f023a; 
-    padding-top: 70px; 
 }
 
 #mainNavbar {
     background-color: #10002b; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    height: 15%;
+    height: 100px;
 }
 
 .logo-img {
-    height: 120px; 
+    height: 150px; 
+}
+
+@media (max-width: 992px) {
+    .logo-img {
+        height: 50px; 
+    }
+}
+@media (max-width: 992px) {
+
+    .navbar-collapse {
+        width: 100%;
+        text-align: left;  
+        padding-left: 15px; 
+        padding-right: 15px;
+    }
+    
+    .navbar-nav .nav-item {
+        width: 100%; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .navbar-nav .btn-outline-success {
+        width: 90%; 
+        margin-top: 10px;
+        margin-left: 0 !important; 
+    }
 }
 
 .navbar-nav .nav-link {
@@ -36,6 +62,7 @@ body {
     color: #10002b;
 }
 
+
 .section-title {
     color: #18ff52; 
     font-family: "Rajdhani", sans-serif;
@@ -53,11 +80,12 @@ body {
     }
 }
 
+
 .carousel-custom {
     max-width: 80%; 
     margin: 0 auto; 
     border-radius: 10px;
-    overflow: hidden; 
+    overflow: hidden;
     box-shadow: 0 0 20px rgba(24, 255, 82, 0.5); 
 }
 
@@ -82,7 +110,33 @@ body {
     object-fit: cover;
 }
 
+
+
 footer {
-    background-color: #10002b;
+    background-color: #10002b !important;
     border-top: 3px solid #18ff52;
 }
+
+.footer-link {
+    color: #ffffff; 
+    transition: color 0.3s ease; 
+}
+
+.footer-link:hover {
+    color: #18ff52 !important; 
+}
+
+.btn-warning {
+    background-color: #ffde59; 
+    border-color: #ffde59;
+    color: #10002b; 
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #e0b400; 
+    border-color: #e0b400;
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.8); 
+
+
